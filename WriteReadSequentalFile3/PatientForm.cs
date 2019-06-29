@@ -35,7 +35,7 @@ namespace WriteReadSequentalFile3
         {
             InitializeComponent();
         }
-
+        //fillBtn_Click() fills textboxes with random numbers and data from the predefined lists
         private void fillBtn_Click(object sender, EventArgs e)
         {
             sinTextBox.Text = (randomGenerator.Next(1, 10)).ToString();
@@ -44,17 +44,21 @@ namespace WriteReadSequentalFile3
             ageTextBox.Text = (randomGenerator.Next(18, 100)).ToString();
         }
 
+        //ClearFormBtn_Click() calls clear textboxes
         private void ClearFormBtn_Click(object sender, EventArgs e)
         {
             ClearForm();
         }
 
+        //addBtn_Click() creates new Patient, adds it in the list of Patients        
         private void addBtn_Click(object sender, EventArgs e)
         {
             string exceptionMessage = "";
+            //checking is any of the textboxes empty
             if (CheckEmptyfields(sinTextBox.Text, fNameTextBox.Text,
                     lNameTextBox.Text, ageTextBox.Text, ref exceptionMessage))
             {
+                //checking type of data in the textboxes
                 if (CheckDataType(sinTextBox.Text, fNameTextBox.Text,
                        lNameTextBox.Text, ageTextBox.Text, ref exceptionMessage))
                     throw new Exception(exceptionMessage);
@@ -63,12 +67,15 @@ namespace WriteReadSequentalFile3
             }
             else
             {
+                //checking is the SIN number unique
                 if (!(CheckUniqueSIN(sinTextBox.Text)))
                 {
                     throw new Exception($"Patient with SIN {sinTextBox.Text} is already exist in the list\nSIN must be unique");
                 }
+                //creating new Patient object
                 newPatient = new Patient(Convert.ToInt32(sinTextBox.Text), fNameTextBox.Text,
                     lNameTextBox.Text, Convert.ToInt32(ageTextBox.Text));
+                //adding new Patient object to the list of Patients, displaying all Patients
                 listOfPatient.Add(newPatient);
                 DisplayAllListBox.Items.Add(newPatient);
             }
@@ -81,25 +88,29 @@ namespace WriteReadSequentalFile3
             lNameTextBox.Text = null;
             ageTextBox.Text = null;
         }
-
+        //CheckDataType() checks data type of the filled by user textboxes, , displays error message
         bool CheckDataType(string f1, string f2, string f3, string f4, ref string exceptionMessage)
         {
             Boolean Exception = false;
+            //checking SIN number textbox data type, should be whole numbers only
             if (!(Int32.TryParse(f1, out int intNumber1)) && f1 != "")
             {
                 exceptionMessage += "SIN must be whole number\n";
                 Exception = true;
             }
+            //checking first name textbox data type, should be letters only
             if (!(f2.All(Char.IsLetter)))
             {
                 exceptionMessage += "First Name must be letters only";
                 Exception = true;
             }
+            //checking last name textbox data type, should be letters only
             if ((!f3.All(Char.IsLetter)))
             {
                 exceptionMessage += "Last Name must be letters only";
                 Exception = true;
             }
+            //checking first name textbox data type, should be whole numbers only
             if (!(Int32.TryParse(f4, out int intNumber2)) && f4 != "")
             {
                 exceptionMessage += "Age must be whole number\n";
@@ -107,26 +118,30 @@ namespace WriteReadSequentalFile3
             }
             return Exception;
         }
-
+        //CheckEmptyfields() checks empty textboxes, displays error message
         bool CheckEmptyfields(string f1, string f2, string f3, string f4, ref string exceptionMessage)
         {
             Boolean Exception = false;
             exceptionMessage = "";
+            //checking SIN number textbox
             if (f1 == "")
             {
                 exceptionMessage += "Enter SIN\n";
                 Exception = true;
             }
+            //checking first name textbox
             if (f2 == "")
             {
                 exceptionMessage += "Enter First Name\n";
                 Exception = true;
             }
+            //checking last name textbox
             if (f3 == "")
             {
                 exceptionMessage += "Enter Last Name\n";
                 Exception = true;
             }
+            //checking age textbox
             if (f4 == "")
             {
                 exceptionMessage += "Enter Age\n";
@@ -134,7 +149,7 @@ namespace WriteReadSequentalFile3
             }
             return Exception;
         }
-
+        //CheckUniqueSIN() checks is SIN number unique
         bool CheckUniqueSIN(string ssn)
         {
             bool uniqueSIN = true;
@@ -147,7 +162,7 @@ namespace WriteReadSequentalFile3
             }
             return uniqueSIN;
         }
-
+        //CheckIsListEmpty() checks is the list of Patients, shows eror message
         void CheckIsListEmpty()
         {
             if (DisplayAllListBox.Items.Count == 0)
@@ -155,7 +170,7 @@ namespace WriteReadSequentalFile3
                 throw new Exception("List of patients is empty\nPlease Add a new Patient");
             }
         }
-
+        //CheckRadioBtnsChoice() checks is any of radiobutton condition choosen for sorting, shows eror message
         void CheckRadioBtnsChoice()
         {
             if (!sinRadioBtn.Checked && !fNameRadioBtn.Checked && !lNameRadioBtn.Checked && !ageRadioBtn.Checked)
@@ -163,7 +178,7 @@ namespace WriteReadSequentalFile3
                 throw new Exception("Choose the condition to Sort");
             }
         }
-
+        //displayAllBtn_Click() shows list of all patients
         private void displayAllBtn_Click(object sender, EventArgs e)
         {
             CheckIsListEmpty();
@@ -171,13 +186,14 @@ namespace WriteReadSequentalFile3
             DisplayPatientsInListBoxArea(listOfPatient);
             displayAllBtn.Text = "Display All";
         }
-
+        //deleteAllPatsBtn_Click() deletes all Patients from the list and from UI
         private void deleteAllPatsBtn_Click(object sender, EventArgs e)
         {
             DisplayAllListBox.Items.Clear();
             listOfPatient.Clear();
         }
-
+        //deletePatientBtn_Click() deletes choosen by use Patient from the list and from UI
+        //shows error message if Patient was not choosen
         private void deletePatientBtn_Click(object sender, EventArgs e)
         {
             try
@@ -190,12 +206,13 @@ namespace WriteReadSequentalFile3
                 throw new Exception("Select the patient to Delete");
             }
         }
-
+        //sortBySINBtn_Click() sots list of Patients by any of 4 Patients properties(SIN, FName, LNmae, Age)
         private void sortBySINBtn_Click(object sender, EventArgs e)
         {
             CheckIsListEmpty();
             CheckRadioBtnsChoice();
             DisplayAllListBox.Items.Clear();
+            //sorting by SIN number
             if (sinRadioBtn.Checked)
             {
                 listOfPatient.Sort(delegate (Patient x, Patient y)
@@ -206,7 +223,7 @@ namespace WriteReadSequentalFile3
                                     else return x.SIN.CompareTo(y.SIN);
                                 });
             }
-
+            //sorting by Age
             if (ageRadioBtn.Checked)
             {
                 listOfPatient.Sort(delegate (Patient x, Patient y)
@@ -217,7 +234,7 @@ namespace WriteReadSequentalFile3
                     else return x.Age.CompareTo(y.Age);
                 });
             }
-
+            //sorting by last name
             if (lNameRadioBtn.Checked)
             {
                 listOfPatient.Sort(delegate (Patient x, Patient y)
@@ -228,7 +245,7 @@ namespace WriteReadSequentalFile3
                     else return x.LastName.CompareTo(y.LastName);
                 });
             }
-
+            //sorting by first name
             if (fNameRadioBtn.Checked)
             {
                 listOfPatient.Sort(delegate (Patient x, Patient y)
@@ -241,7 +258,8 @@ namespace WriteReadSequentalFile3
             }
             DisplayPatientsInListBoxArea(listOfPatient);
         }
-
+        //editPatientBtn_Click() opens new Windows form
+        //allows user to edit any Patient`s property from the list of Patients(SIN, FName, LName, Age)
         private void editPatientBtn_Click(object sender, EventArgs e)
         {
             try
@@ -256,7 +274,8 @@ namespace WriteReadSequentalFile3
                 throw new Exception("Select the patient to Edit");
             }
         }
-
+        //saveTXTBtn_Click() saves list of Patients to a .txt file
+        //after saving changes text on Load Button
         private void saveTXTBtn_Click(object sender, EventArgs e)
         {
             CheckIsListEmpty();
@@ -271,7 +290,7 @@ namespace WriteReadSequentalFile3
             DisplayAllListBox.Items.Clear();
             loadTXTBtn.Text = "Load current list from .txt";
         }
-
+        //loadTXTBtn_Click() loads current (or previous) list of Patients from the .txt file
         private void loadTXTBtn_Click(object sender, EventArgs e)
         {
             DisplayAllListBox.Items.Clear();
@@ -290,7 +309,8 @@ namespace WriteReadSequentalFile3
             reader.Close();
             infile.Close();
         }
-
+        //saveXMLBtn_Click() saves list of Patients to a .bin file
+        //after saving changes text on Load Button
         private void saveXMLBtn_Click(object sender, EventArgs e)
         {
             CheckIsListEmpty();
@@ -304,7 +324,7 @@ namespace WriteReadSequentalFile3
             outfile.Close();
             loadBINBtn.Text = "Load current list from .bin";
         }
-
+        //loadXMLBtn_Click() loads current (or previous) list of Patients from a .bin file
         private void loadXMLBtn_Click(object sender, EventArgs e)
         {
             DisplayAllListBox.Items.Clear();
@@ -319,7 +339,7 @@ namespace WriteReadSequentalFile3
             DisplayPatientsInListBoxArea(listOfPatient);
             infile.Close();
         }
-
+        //DisplayPatientsInListBoxArea() shows all saved Patients in the ListBox
         void DisplayPatientsInListBoxArea(List<Patient> listOfPatient)
         {
             foreach (var item in listOfPatient)
@@ -328,6 +348,8 @@ namespace WriteReadSequentalFile3
             }
         }
 
+        #region Buttons Tips Info
+        //All methods below show tips when use hover mouse on any button
         private void fillBtn_MouseHover(object sender, EventArgs e)
         {
             ToolTip1 = new ToolTip();
@@ -398,6 +420,7 @@ namespace WriteReadSequentalFile3
         {
             ToolTip1 = new ToolTip();
             ToolTip1.SetToolTip(displayAllBtn, "Click to display or refresh the list");
-        }
+        } 
+        #endregion
     }
 }

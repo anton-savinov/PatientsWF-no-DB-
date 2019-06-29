@@ -24,19 +24,23 @@ namespace WriteReadSequentalFile3
             lNameFormDisplayLbl.Text = PatientForm.patientForEdit.LastName;
             ageFormDisplayLbl.Text = PatientForm.patientForEdit.Age.ToString();
         }
-        
+        //DisabledTextboxesForEdit() disables all textboxes, user is not able to fill any textbox
         void DisabledTextboxesForEdit(TextBox input)
         {
             input.Text = null;
             input.ReadOnly = true;
         }
-
+        //savePatientFormBtn_Click() saves Patient in the list after editing
+        //checks what Patient`s property was choosen to edit
+        //shows error message
         private void savePatientFormBtn_Click(object sender, EventArgs e)
         {
+            //checking if none of the Patients properties was choosen
             if (!sinFormCheckBox.Checked && !lNameFormCheckBox.Checked && !fNameFormCheckBox.Checked && !ageFormCheckBox.Checked)
             {
                 throw new Exception("Choose field to edit, then enter a value");
             }
+            //editing SIN property
             if (sinFormCheckBox.Checked)
             {
                 if (sinFormEditTxtBox.Text != "")
@@ -49,6 +53,7 @@ namespace WriteReadSequentalFile3
                 else
                     ThrowException("SIN");
             }
+            //editing first name property
             if (fNameFormCheckBox.Checked)
             {
                 if (fNameFormEditTxtBox.Text != "")
@@ -61,6 +66,7 @@ namespace WriteReadSequentalFile3
                 else
                     ThrowException("First Name");
             }
+            //checking last name property
             if (lNameFormCheckBox.Checked)
             {
                 if (lNameFormEditTxtBox.Text != "")
@@ -73,6 +79,7 @@ namespace WriteReadSequentalFile3
                 else
                     ThrowException("Last Name");
             }
+            //checking age property
             if (ageFormCheckBox.Checked)
             {
                 if (ageFormEditTxtBox.Text != "")
@@ -85,8 +92,6 @@ namespace WriteReadSequentalFile3
                 else
                     ThrowException("Age");
             }
-            
-
             MessageBox.Show("Patient is edited");
         }
 
