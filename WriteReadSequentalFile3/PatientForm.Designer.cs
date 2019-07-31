@@ -66,7 +66,7 @@
             // fNameTextBox
             // 
             this.fNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fNameTextBox.Location = new System.Drawing.Point(210, 85);
+            this.fNameTextBox.Location = new System.Drawing.Point(210, 84);
             this.fNameTextBox.Name = "fNameTextBox";
             this.fNameTextBox.Size = new System.Drawing.Size(239, 39);
             this.fNameTextBox.TabIndex = 1;
@@ -74,7 +74,7 @@
             // lNameTextBox
             // 
             this.lNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameTextBox.Location = new System.Drawing.Point(209, 138);
+            this.lNameTextBox.Location = new System.Drawing.Point(209, 136);
             this.lNameTextBox.Name = "lNameTextBox";
             this.lNameTextBox.Size = new System.Drawing.Size(240, 39);
             this.lNameTextBox.TabIndex = 2;
@@ -82,9 +82,9 @@
             // ageTextBox
             // 
             this.ageTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ageTextBox.Location = new System.Drawing.Point(210, 187);
+            this.ageTextBox.Location = new System.Drawing.Point(209, 187);
             this.ageTextBox.Name = "ageTextBox";
-            this.ageTextBox.Size = new System.Drawing.Size(239, 39);
+            this.ageTextBox.Size = new System.Drawing.Size(240, 39);
             this.ageTextBox.TabIndex = 3;
             // 
             // sinLabel
