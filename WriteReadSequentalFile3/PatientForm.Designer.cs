@@ -372,7 +372,7 @@
             this.Controls.Add(this.fNameTextBox);
             this.Controls.Add(this.sinTextBox);
             this.Name = "PatientForm";
-            this.Text = "Form1";
+            this.Text = "PatientForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 
