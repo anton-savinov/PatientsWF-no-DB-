@@ -5,7 +5,7 @@ WinForm, C#, Exception Handling, Streams,
 Simple Windows Form of Patients database with CRUD functions and Save/Load options to/from .txt and .bin. Database is not connected
 
 
-!{}(https://github.com/anton-savinov/PatientsWF-no-DB-/blob/master/PatientDatabaseUI%20(WinForm%2C%20No%20DBConn).PNG)
+![](https://github.com/anton-savinov/PatientsWF-no-DB-/blob/master/PatientDatabaseUI%20(WinForm%2C%20No%20DBConn).PNG)
 
 + Clear Form - Clears the form, all fields become empty
 + Fill Form - Fills the form with random data from the predefined lists (demontration purpose)
