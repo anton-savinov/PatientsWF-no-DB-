@@ -156,7 +156,7 @@
             // displayAllBtn
             // 
             this.displayAllBtn.BackColor = System.Drawing.Color.LightCyan;
-            this.displayAllBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayAllBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayAllBtn.Location = new System.Drawing.Point(958, 373);
             this.displayAllBtn.Name = "displayAllBtn";
             this.displayAllBtn.Size = new System.Drawing.Size(226, 79);
@@ -182,7 +182,7 @@
             // deleteAllPatsBtn
             // 
             this.deleteAllPatsBtn.BackColor = System.Drawing.Color.LightCoral;
-            this.deleteAllPatsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteAllPatsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteAllPatsBtn.Location = new System.Drawing.Point(958, 470);
             this.deleteAllPatsBtn.Name = "deleteAllPatsBtn";
             this.deleteAllPatsBtn.Size = new System.Drawing.Size(226, 79);
@@ -292,7 +292,7 @@
             // saveTXTBtn
             // 
             this.saveTXTBtn.BackColor = System.Drawing.Color.LightCyan;
-            this.saveTXTBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveTXTBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveTXTBtn.Location = new System.Drawing.Point(475, 373);
             this.saveTXTBtn.Name = "saveTXTBtn";
             this.saveTXTBtn.Size = new System.Drawing.Size(184, 79);
@@ -305,7 +305,7 @@
             // saveBINBtn
             // 
             this.saveBINBtn.BackColor = System.Drawing.Color.LightCyan;
-            this.saveBINBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveBINBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveBINBtn.Location = new System.Drawing.Point(475, 470);
             this.saveBINBtn.Name = "saveBINBtn";
             this.saveBINBtn.Size = new System.Drawing.Size(184, 79);
@@ -318,7 +318,7 @@
             // loadTXTBtn
             // 
             this.loadTXTBtn.BackColor = System.Drawing.Color.LightCyan;
-            this.loadTXTBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadTXTBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadTXTBtn.Location = new System.Drawing.Point(719, 373);
             this.loadTXTBtn.Name = "loadTXTBtn";
             this.loadTXTBtn.Size = new System.Drawing.Size(208, 79);
@@ -331,7 +331,7 @@
             // loadBINBtn
             // 
             this.loadBINBtn.BackColor = System.Drawing.Color.LightCyan;
-            this.loadBINBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadBINBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadBINBtn.Location = new System.Drawing.Point(719, 470);
             this.loadBINBtn.Name = "loadBINBtn";
             this.loadBINBtn.Size = new System.Drawing.Size(208, 79);
