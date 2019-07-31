@@ -219,7 +219,7 @@
             // 
             this.sortByBtn.BackColor = System.Drawing.Color.PaleGreen;
             this.sortByBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sortByBtn.Location = new System.Drawing.Point(1052, 118);
+            this.sortByBtn.Location = new System.Drawing.Point(1051, 128);
             this.sortByBtn.Name = "sortByBtn";
             this.sortByBtn.Size = new System.Drawing.Size(164, 59);
             this.sortByBtn.TabIndex = 17;
@@ -232,7 +232,7 @@
             // 
             this.sinRadioBtn.AutoSize = true;
             this.sinRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sinRadioBtn.Location = new System.Drawing.Point(1162, 63);
+            this.sinRadioBtn.Location = new System.Drawing.Point(1162, 73);
             this.sinRadioBtn.Name = "sinRadioBtn";
             this.sinRadioBtn.Size = new System.Drawing.Size(86, 36);
             this.sinRadioBtn.TabIndex = 18;
@@ -268,7 +268,7 @@
             // 
             this.lNameRadioBtn.AutoSize = true;
             this.lNameRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameRadioBtn.Location = new System.Drawing.Point(958, 63);
+            this.lNameRadioBtn.Location = new System.Drawing.Point(957, 76);
             this.lNameRadioBtn.Name = "lNameRadioBtn";
             this.lNameRadioBtn.Size = new System.Drawing.Size(176, 36);
             this.lNameRadioBtn.TabIndex = 21;
