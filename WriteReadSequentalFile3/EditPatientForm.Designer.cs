@@ -71,7 +71,7 @@
             // 
             this.lNameFormLbl.AutoSize = true;
             this.lNameFormLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameFormLbl.Location = new System.Drawing.Point(29, 148);
+            this.lNameFormLbl.Location = new System.Drawing.Point(27, 148);
             this.lNameFormLbl.Name = "lNameFormLbl";
             this.lNameFormLbl.Size = new System.Drawing.Size(159, 32);
             this.lNameFormLbl.TabIndex = 2;
@@ -91,7 +91,7 @@
             // 
             this.ageFormDisplayLbl.AutoSize = true;
             this.ageFormDisplayLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ageFormDisplayLbl.Location = new System.Drawing.Point(159, 201);
+            this.ageFormDisplayLbl.Location = new System.Drawing.Point(209, 201);
             this.ageFormDisplayLbl.Name = "ageFormDisplayLbl";
             this.ageFormDisplayLbl.Size = new System.Drawing.Size(0, 32);
             this.ageFormDisplayLbl.TabIndex = 7;
@@ -100,7 +100,7 @@
             // 
             this.lNameFormDisplayLbl.AutoSize = true;
             this.lNameFormDisplayLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameFormDisplayLbl.Location = new System.Drawing.Point(159, 148);
+            this.lNameFormDisplayLbl.Location = new System.Drawing.Point(209, 148);
             this.lNameFormDisplayLbl.Name = "lNameFormDisplayLbl";
             this.lNameFormDisplayLbl.Size = new System.Drawing.Size(0, 32);
             this.lNameFormDisplayLbl.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             this.fNameFormDisplayLbl.AutoSize = true;
             this.fNameFormDisplayLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fNameFormDisplayLbl.Location = new System.Drawing.Point(159, 95);
+            this.fNameFormDisplayLbl.Location = new System.Drawing.Point(209, 95);
             this.fNameFormDisplayLbl.Name = "fNameFormDisplayLbl";
             this.fNameFormDisplayLbl.Size = new System.Drawing.Size(0, 32);
             this.fNameFormDisplayLbl.TabIndex = 5;
@@ -118,7 +118,7 @@
             // 
             this.sinFormDisplayLbl.AutoSize = true;
             this.sinFormDisplayLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sinFormDisplayLbl.Location = new System.Drawing.Point(159, 40);
+            this.sinFormDisplayLbl.Location = new System.Drawing.Point(209, 40);
             this.sinFormDisplayLbl.Name = "sinFormDisplayLbl";
             this.sinFormDisplayLbl.Size = new System.Drawing.Size(0, 32);
             this.sinFormDisplayLbl.TabIndex = 4;
@@ -126,7 +126,7 @@
             // sinFormEditTxtBox
             // 
             this.sinFormEditTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sinFormEditTxtBox.Location = new System.Drawing.Point(511, 33);
+            this.sinFormEditTxtBox.Location = new System.Drawing.Point(457, 33);
             this.sinFormEditTxtBox.Name = "sinFormEditTxtBox";
             this.sinFormEditTxtBox.ReadOnly = true;
             this.sinFormEditTxtBox.Size = new System.Drawing.Size(261, 39);
@@ -135,7 +135,7 @@
             // fNameFormEditTxtBox
             // 
             this.fNameFormEditTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fNameFormEditTxtBox.Location = new System.Drawing.Point(511, 88);
+            this.fNameFormEditTxtBox.Location = new System.Drawing.Point(457, 88);
             this.fNameFormEditTxtBox.Name = "fNameFormEditTxtBox";
             this.fNameFormEditTxtBox.ReadOnly = true;
             this.fNameFormEditTxtBox.Size = new System.Drawing.Size(261, 39);
@@ -144,7 +144,7 @@
             // lNameFormEditTxtBox
             // 
             this.lNameFormEditTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameFormEditTxtBox.Location = new System.Drawing.Point(511, 141);
+            this.lNameFormEditTxtBox.Location = new System.Drawing.Point(457, 141);
             this.lNameFormEditTxtBox.Name = "lNameFormEditTxtBox";
             this.lNameFormEditTxtBox.ReadOnly = true;
             this.lNameFormEditTxtBox.Size = new System.Drawing.Size(261, 39);
@@ -153,7 +153,7 @@
             // ageFormEditTxtBox
             // 
             this.ageFormEditTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ageFormEditTxtBox.Location = new System.Drawing.Point(511, 194);
+            this.ageFormEditTxtBox.Location = new System.Drawing.Point(457, 194);
             this.ageFormEditTxtBox.Name = "ageFormEditTxtBox";
             this.ageFormEditTxtBox.ReadOnly = true;
             this.ageFormEditTxtBox.Size = new System.Drawing.Size(261, 39);
@@ -163,7 +163,7 @@
             // 
             this.sinFormCheckBox.AutoSize = true;
             this.sinFormCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sinFormCheckBox.Location = new System.Drawing.Point(192, 253);
+            this.sinFormCheckBox.Location = new System.Drawing.Point(163, 253);
             this.sinFormCheckBox.Name = "sinFormCheckBox";
             this.sinFormCheckBox.Size = new System.Drawing.Size(87, 36);
             this.sinFormCheckBox.TabIndex = 13;
@@ -175,7 +175,7 @@
             // 
             this.lNameFormCheckBox.AutoSize = true;
             this.lNameFormCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameFormCheckBox.Location = new System.Drawing.Point(434, 295);
+            this.lNameFormCheckBox.Location = new System.Drawing.Point(405, 295);
             this.lNameFormCheckBox.Name = "lNameFormCheckBox";
             this.lNameFormCheckBox.Size = new System.Drawing.Size(177, 36);
             this.lNameFormCheckBox.TabIndex = 14;
@@ -187,7 +187,7 @@
             // 
             this.ageFormCheckBox.AutoSize = true;
             this.ageFormCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ageFormCheckBox.Location = new System.Drawing.Point(192, 295);
+            this.ageFormCheckBox.Location = new System.Drawing.Point(163, 295);
             this.ageFormCheckBox.Name = "ageFormCheckBox";
             this.ageFormCheckBox.Size = new System.Drawing.Size(92, 36);
             this.ageFormCheckBox.TabIndex = 15;
@@ -199,7 +199,7 @@
             // 
             this.fNameFormCheckBox.AutoSize = true;
             this.fNameFormCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fNameFormCheckBox.Location = new System.Drawing.Point(434, 253);
+            this.fNameFormCheckBox.Location = new System.Drawing.Point(405, 253);
             this.fNameFormCheckBox.Name = "fNameFormCheckBox";
             this.fNameFormCheckBox.Size = new System.Drawing.Size(178, 36);
             this.fNameFormCheckBox.TabIndex = 16;
@@ -211,7 +211,7 @@
             // 
             this.savePatientFormBtn.BackColor = System.Drawing.Color.PaleGreen;
             this.savePatientFormBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.savePatientFormBtn.Location = new System.Drawing.Point(276, 356);
+            this.savePatientFormBtn.Location = new System.Drawing.Point(247, 356);
             this.savePatientFormBtn.Name = "savePatientFormBtn";
             this.savePatientFormBtn.Size = new System.Drawing.Size(247, 91);
             this.savePatientFormBtn.TabIndex = 17;
@@ -223,7 +223,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 468);
+            this.ClientSize = new System.Drawing.Size(759, 468);
             this.Controls.Add(this.savePatientFormBtn);
             this.Controls.Add(this.fNameFormCheckBox);
             this.Controls.Add(this.ageFormCheckBox);
