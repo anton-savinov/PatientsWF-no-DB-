@@ -395,7 +395,7 @@ namespace WriteReadSequentalFile3
         private void sortByBtn_MouseHover(object sender, EventArgs e)
         {
             ToolTip1 = new ToolTip();
-            ToolTip1.SetToolTip(sortByBtn, "Choose the condition on left side to sort the list");
+            ToolTip1.SetToolTip(sortByBtn, "Choose condition to sort the list");
         }
 
         private void editPatientBtn_MouseHover(object sender, EventArgs e)

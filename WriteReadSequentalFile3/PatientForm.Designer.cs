@@ -57,160 +57,184 @@
             // 
             // sinTextBox
             // 
-            this.sinTextBox.Location = new System.Drawing.Point(160, 31);
+            this.sinTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sinTextBox.Location = new System.Drawing.Point(209, 33);
             this.sinTextBox.Name = "sinTextBox";
-            this.sinTextBox.Size = new System.Drawing.Size(177, 26);
+            this.sinTextBox.Size = new System.Drawing.Size(240, 39);
             this.sinTextBox.TabIndex = 0;
             // 
             // fNameTextBox
             // 
-            this.fNameTextBox.Location = new System.Drawing.Point(160, 81);
+            this.fNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fNameTextBox.Location = new System.Drawing.Point(210, 85);
             this.fNameTextBox.Name = "fNameTextBox";
-            this.fNameTextBox.Size = new System.Drawing.Size(177, 26);
+            this.fNameTextBox.Size = new System.Drawing.Size(239, 39);
             this.fNameTextBox.TabIndex = 1;
             // 
             // lNameTextBox
             // 
-            this.lNameTextBox.Location = new System.Drawing.Point(160, 134);
+            this.lNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNameTextBox.Location = new System.Drawing.Point(209, 138);
             this.lNameTextBox.Name = "lNameTextBox";
-            this.lNameTextBox.Size = new System.Drawing.Size(177, 26);
+            this.lNameTextBox.Size = new System.Drawing.Size(240, 39);
             this.lNameTextBox.TabIndex = 2;
             // 
             // ageTextBox
             // 
-            this.ageTextBox.Location = new System.Drawing.Point(160, 187);
+            this.ageTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageTextBox.Location = new System.Drawing.Point(210, 187);
             this.ageTextBox.Name = "ageTextBox";
-            this.ageTextBox.Size = new System.Drawing.Size(177, 26);
+            this.ageTextBox.Size = new System.Drawing.Size(239, 39);
             this.ageTextBox.TabIndex = 3;
             // 
             // sinLabel
             // 
             this.sinLabel.AutoSize = true;
+            this.sinLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sinLabel.Location = new System.Drawing.Point(44, 37);
             this.sinLabel.Name = "sinLabel";
-            this.sinLabel.Size = new System.Drawing.Size(40, 20);
+            this.sinLabel.Size = new System.Drawing.Size(69, 32);
             this.sinLabel.TabIndex = 4;
             this.sinLabel.Text = "SIN:";
             // 
             // fNameLable
             // 
             this.fNameLable.AutoSize = true;
+            this.fNameLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fNameLable.Location = new System.Drawing.Point(44, 88);
             this.fNameLable.Name = "fNameLable";
-            this.fNameLable.Size = new System.Drawing.Size(90, 20);
+            this.fNameLable.Size = new System.Drawing.Size(160, 32);
             this.fNameLable.TabIndex = 5;
             this.fNameLable.Text = "First Name:";
             // 
             // lNameLabel
             // 
             this.lNameLabel.AutoSize = true;
+            this.lNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lNameLabel.Location = new System.Drawing.Point(44, 141);
             this.lNameLabel.Name = "lNameLabel";
-            this.lNameLabel.Size = new System.Drawing.Size(90, 20);
+            this.lNameLabel.Size = new System.Drawing.Size(159, 32);
             this.lNameLabel.TabIndex = 6;
             this.lNameLabel.Text = "Last Name:";
             // 
             // ageLabel
             // 
             this.ageLabel.AutoSize = true;
+            this.ageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageLabel.Location = new System.Drawing.Point(44, 194);
             this.ageLabel.Name = "ageLabel";
-            this.ageLabel.Size = new System.Drawing.Size(38, 20);
+            this.ageLabel.Size = new System.Drawing.Size(74, 32);
             this.ageLabel.TabIndex = 7;
-            this.ageLabel.Text = "Age";
+            this.ageLabel.Text = "Age:";
             // 
             // addBtn
             // 
-            this.addBtn.Location = new System.Drawing.Point(255, 251);
+            this.addBtn.BackColor = System.Drawing.Color.PaleGreen;
+            this.addBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addBtn.Location = new System.Drawing.Point(50, 373);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(82, 44);
+            this.addBtn.Size = new System.Drawing.Size(399, 176);
             this.addBtn.TabIndex = 9;
-            this.addBtn.Text = "Add";
-            this.addBtn.UseVisualStyleBackColor = true;
+            this.addBtn.Text = "Add Patient";
+            this.addBtn.UseVisualStyleBackColor = false;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             this.addBtn.MouseHover += new System.EventHandler(this.addBtn_MouseHover);
             // 
             // fillBtn
             // 
-            this.fillBtn.Location = new System.Drawing.Point(160, 251);
+            this.fillBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.fillBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fillBtn.Location = new System.Drawing.Point(277, 268);
             this.fillBtn.Name = "fillBtn";
-            this.fillBtn.Size = new System.Drawing.Size(87, 44);
+            this.fillBtn.Size = new System.Drawing.Size(172, 86);
             this.fillBtn.TabIndex = 8;
-            this.fillBtn.Text = "Fill";
-            this.fillBtn.UseVisualStyleBackColor = true;
+            this.fillBtn.Text = "Fill Form";
+            this.fillBtn.UseVisualStyleBackColor = false;
             this.fillBtn.Click += new System.EventHandler(this.fillBtn_Click);
             this.fillBtn.MouseHover += new System.EventHandler(this.fillBtn_MouseHover);
             // 
             // displayAllBtn
             // 
-            this.displayAllBtn.Location = new System.Drawing.Point(857, 264);
+            this.displayAllBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.displayAllBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayAllBtn.Location = new System.Drawing.Point(958, 373);
             this.displayAllBtn.Name = "displayAllBtn";
-            this.displayAllBtn.Size = new System.Drawing.Size(131, 44);
+            this.displayAllBtn.Size = new System.Drawing.Size(226, 79);
             this.displayAllBtn.TabIndex = 11;
-            this.displayAllBtn.Text = "Display All";
-            this.displayAllBtn.UseVisualStyleBackColor = true;
+            this.displayAllBtn.Text = "Display All Patients";
+            this.displayAllBtn.UseVisualStyleBackColor = false;
             this.displayAllBtn.Click += new System.EventHandler(this.displayAllBtn_Click);
             this.displayAllBtn.MouseHover += new System.EventHandler(this.displayAllBtn_MouseHover);
             // 
             // clearFormBtn
             // 
-            this.clearFormBtn.Location = new System.Drawing.Point(48, 251);
+            this.clearFormBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.clearFormBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearFormBtn.Location = new System.Drawing.Point(50, 268);
             this.clearFormBtn.Name = "clearFormBtn";
-            this.clearFormBtn.Size = new System.Drawing.Size(97, 44);
+            this.clearFormBtn.Size = new System.Drawing.Size(173, 86);
             this.clearFormBtn.TabIndex = 12;
             this.clearFormBtn.Text = "Clear Form";
-            this.clearFormBtn.UseVisualStyleBackColor = true;
+            this.clearFormBtn.UseVisualStyleBackColor = false;
             this.clearFormBtn.Click += new System.EventHandler(this.ClearFormBtn_Click);
             this.clearFormBtn.MouseHover += new System.EventHandler(this.clearFormBtn_MouseHover);
             // 
             // deleteAllPatsBtn
             // 
-            this.deleteAllPatsBtn.Location = new System.Drawing.Point(857, 203);
+            this.deleteAllPatsBtn.BackColor = System.Drawing.Color.LightCoral;
+            this.deleteAllPatsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteAllPatsBtn.Location = new System.Drawing.Point(958, 470);
             this.deleteAllPatsBtn.Name = "deleteAllPatsBtn";
-            this.deleteAllPatsBtn.Size = new System.Drawing.Size(149, 44);
+            this.deleteAllPatsBtn.Size = new System.Drawing.Size(226, 79);
             this.deleteAllPatsBtn.TabIndex = 13;
             this.deleteAllPatsBtn.Text = "Delete all Patients";
-            this.deleteAllPatsBtn.UseVisualStyleBackColor = true;
+            this.deleteAllPatsBtn.UseVisualStyleBackColor = false;
             this.deleteAllPatsBtn.Click += new System.EventHandler(this.deleteAllPatsBtn_Click);
             this.deleteAllPatsBtn.MouseHover += new System.EventHandler(this.deleteAllPatsBtn_MouseHover);
             // 
             // DisplayAllListBox
             // 
+            this.DisplayAllListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DisplayAllListBox.FormattingEnabled = true;
-            this.DisplayAllListBox.ItemHeight = 20;
-            this.DisplayAllListBox.Location = new System.Drawing.Point(383, 31);
+            this.DisplayAllListBox.ItemHeight = 29;
+            this.DisplayAllListBox.Location = new System.Drawing.Point(475, 31);
             this.DisplayAllListBox.Name = "DisplayAllListBox";
-            this.DisplayAllListBox.Size = new System.Drawing.Size(453, 184);
+            this.DisplayAllListBox.Size = new System.Drawing.Size(452, 323);
             this.DisplayAllListBox.TabIndex = 15;
             // 
             // deletePatientBtn
             // 
-            this.deletePatientBtn.Location = new System.Drawing.Point(857, 141);
+            this.deletePatientBtn.BackColor = System.Drawing.Color.LightCoral;
+            this.deletePatientBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deletePatientBtn.Location = new System.Drawing.Point(957, 292);
             this.deletePatientBtn.Name = "deletePatientBtn";
-            this.deletePatientBtn.Size = new System.Drawing.Size(139, 42);
+            this.deletePatientBtn.Size = new System.Drawing.Size(226, 62);
             this.deletePatientBtn.TabIndex = 16;
             this.deletePatientBtn.Text = "Delete Patient";
-            this.deletePatientBtn.UseVisualStyleBackColor = true;
+            this.deletePatientBtn.UseVisualStyleBackColor = false;
             this.deletePatientBtn.Click += new System.EventHandler(this.deletePatientBtn_Click);
             this.deletePatientBtn.MouseHover += new System.EventHandler(this.deletePatientBtn_MouseHover);
             // 
             // sortByBtn
             // 
-            this.sortByBtn.Location = new System.Drawing.Point(1064, 33);
+            this.sortByBtn.BackColor = System.Drawing.Color.PaleGreen;
+            this.sortByBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sortByBtn.Location = new System.Drawing.Point(1052, 118);
             this.sortByBtn.Name = "sortByBtn";
-            this.sortByBtn.Size = new System.Drawing.Size(96, 46);
+            this.sortByBtn.Size = new System.Drawing.Size(164, 59);
             this.sortByBtn.TabIndex = 17;
             this.sortByBtn.Text = "Sort";
-            this.sortByBtn.UseVisualStyleBackColor = true;
+            this.sortByBtn.UseVisualStyleBackColor = false;
             this.sortByBtn.Click += new System.EventHandler(this.sortBySINBtn_Click);
             this.sortByBtn.MouseHover += new System.EventHandler(this.sortByBtn_MouseHover);
             // 
             // sinRadioBtn
             // 
             this.sinRadioBtn.AutoSize = true;
-            this.sinRadioBtn.Location = new System.Drawing.Point(975, 33);
+            this.sinRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sinRadioBtn.Location = new System.Drawing.Point(1162, 63);
             this.sinRadioBtn.Name = "sinRadioBtn";
-            this.sinRadioBtn.Size = new System.Drawing.Size(61, 24);
+            this.sinRadioBtn.Size = new System.Drawing.Size(86, 36);
             this.sinRadioBtn.TabIndex = 18;
             this.sinRadioBtn.TabStop = true;
             this.sinRadioBtn.Text = "SIN";
@@ -219,9 +243,10 @@
             // fNameRadioBtn
             // 
             this.fNameRadioBtn.AutoSize = true;
-            this.fNameRadioBtn.Location = new System.Drawing.Point(857, 33);
+            this.fNameRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fNameRadioBtn.Location = new System.Drawing.Point(957, 34);
             this.fNameRadioBtn.Name = "fNameRadioBtn";
-            this.fNameRadioBtn.Size = new System.Drawing.Size(111, 24);
+            this.fNameRadioBtn.Size = new System.Drawing.Size(177, 36);
             this.fNameRadioBtn.TabIndex = 19;
             this.fNameRadioBtn.TabStop = true;
             this.fNameRadioBtn.Text = "First Name";
@@ -230,9 +255,10 @@
             // ageRadioBtn
             // 
             this.ageRadioBtn.AutoSize = true;
-            this.ageRadioBtn.Location = new System.Drawing.Point(973, 55);
+            this.ageRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageRadioBtn.Location = new System.Drawing.Point(1162, 31);
             this.ageRadioBtn.Name = "ageRadioBtn";
-            this.ageRadioBtn.Size = new System.Drawing.Size(63, 24);
+            this.ageRadioBtn.Size = new System.Drawing.Size(91, 36);
             this.ageRadioBtn.TabIndex = 20;
             this.ageRadioBtn.TabStop = true;
             this.ageRadioBtn.Text = "Age";
@@ -241,9 +267,10 @@
             // lNameRadioBtn
             // 
             this.lNameRadioBtn.AutoSize = true;
-            this.lNameRadioBtn.Location = new System.Drawing.Point(857, 55);
+            this.lNameRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNameRadioBtn.Location = new System.Drawing.Point(958, 63);
             this.lNameRadioBtn.Name = "lNameRadioBtn";
-            this.lNameRadioBtn.Size = new System.Drawing.Size(111, 24);
+            this.lNameRadioBtn.Size = new System.Drawing.Size(176, 36);
             this.lNameRadioBtn.TabIndex = 21;
             this.lNameRadioBtn.TabStop = true;
             this.lNameRadioBtn.Text = "Last Name";
@@ -251,56 +278,66 @@
             // 
             // editPatientBtn
             // 
-            this.editPatientBtn.Location = new System.Drawing.Point(857, 88);
+            this.editPatientBtn.BackColor = System.Drawing.Color.Khaki;
+            this.editPatientBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editPatientBtn.Location = new System.Drawing.Point(957, 211);
             this.editPatientBtn.Name = "editPatientBtn";
-            this.editPatientBtn.Size = new System.Drawing.Size(145, 42);
+            this.editPatientBtn.Size = new System.Drawing.Size(226, 62);
             this.editPatientBtn.TabIndex = 22;
             this.editPatientBtn.Text = "Edit Patient";
-            this.editPatientBtn.UseVisualStyleBackColor = true;
+            this.editPatientBtn.UseVisualStyleBackColor = false;
             this.editPatientBtn.Click += new System.EventHandler(this.editPatientBtn_Click);
             this.editPatientBtn.MouseHover += new System.EventHandler(this.editPatientBtn_MouseHover);
             // 
             // saveTXTBtn
             // 
-            this.saveTXTBtn.Location = new System.Drawing.Point(383, 241);
+            this.saveTXTBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.saveTXTBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveTXTBtn.Location = new System.Drawing.Point(475, 373);
             this.saveTXTBtn.Name = "saveTXTBtn";
-            this.saveTXTBtn.Size = new System.Drawing.Size(81, 66);
+            this.saveTXTBtn.Size = new System.Drawing.Size(184, 79);
             this.saveTXTBtn.TabIndex = 23;
             this.saveTXTBtn.Text = "Save to .txt";
-            this.saveTXTBtn.UseVisualStyleBackColor = true;
+            this.saveTXTBtn.UseVisualStyleBackColor = false;
             this.saveTXTBtn.Click += new System.EventHandler(this.saveTXTBtn_Click);
             this.saveTXTBtn.MouseHover += new System.EventHandler(this.saveTXTBtn_MouseHover);
             // 
             // saveBINBtn
             // 
-            this.saveBINBtn.Location = new System.Drawing.Point(763, 240);
+            this.saveBINBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.saveBINBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveBINBtn.Location = new System.Drawing.Point(475, 470);
             this.saveBINBtn.Name = "saveBINBtn";
-            this.saveBINBtn.Size = new System.Drawing.Size(73, 67);
+            this.saveBINBtn.Size = new System.Drawing.Size(184, 79);
             this.saveBINBtn.TabIndex = 24;
             this.saveBINBtn.Text = "Save to .bin";
-            this.saveBINBtn.UseVisualStyleBackColor = true;
+            this.saveBINBtn.UseVisualStyleBackColor = false;
             this.saveBINBtn.Click += new System.EventHandler(this.saveXMLBtn_Click);
             this.saveBINBtn.MouseHover += new System.EventHandler(this.saveBINBtn_MouseHover);
             // 
             // loadTXTBtn
             // 
-            this.loadTXTBtn.Location = new System.Drawing.Point(476, 241);
+            this.loadTXTBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.loadTXTBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadTXTBtn.Location = new System.Drawing.Point(719, 373);
             this.loadTXTBtn.Name = "loadTXTBtn";
-            this.loadTXTBtn.Size = new System.Drawing.Size(131, 67);
+            this.loadTXTBtn.Size = new System.Drawing.Size(208, 79);
             this.loadTXTBtn.TabIndex = 25;
             this.loadTXTBtn.Text = "Load previous list from .txt";
-            this.loadTXTBtn.UseVisualStyleBackColor = true;
+            this.loadTXTBtn.UseVisualStyleBackColor = false;
             this.loadTXTBtn.Click += new System.EventHandler(this.loadTXTBtn_Click);
             this.loadTXTBtn.MouseHover += new System.EventHandler(this.loadTXTBtn_MouseHover);
             // 
             // loadBINBtn
             // 
-            this.loadBINBtn.Location = new System.Drawing.Point(621, 240);
+            this.loadBINBtn.BackColor = System.Drawing.Color.LightCyan;
+            this.loadBINBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadBINBtn.Location = new System.Drawing.Point(719, 470);
             this.loadBINBtn.Name = "loadBINBtn";
-            this.loadBINBtn.Size = new System.Drawing.Size(131, 67);
+            this.loadBINBtn.Size = new System.Drawing.Size(208, 79);
             this.loadBINBtn.TabIndex = 26;
             this.loadBINBtn.Text = "Load previous list from .bin";
-            this.loadBINBtn.UseVisualStyleBackColor = true;
+            this.loadBINBtn.UseVisualStyleBackColor = false;
             this.loadBINBtn.Click += new System.EventHandler(this.loadXMLBtn_Click);
             this.loadBINBtn.MouseHover += new System.EventHandler(this.loadBINBtn_MouseHover);
             // 
@@ -308,7 +345,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1181, 336);
+            this.ClientSize = new System.Drawing.Size(1284, 569);
             this.Controls.Add(this.loadBINBtn);
             this.Controls.Add(this.loadTXTBtn);
             this.Controls.Add(this.saveBINBtn);
