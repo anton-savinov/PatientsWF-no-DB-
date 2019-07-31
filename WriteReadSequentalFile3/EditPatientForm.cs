@@ -85,7 +85,7 @@ namespace WriteReadSequentalFile3
                 if (ageFormEditTxtBox.Text != "")
                 {
                     PatientForm.patientForEdit.Age = Convert.ToInt32(ageFormEditTxtBox.Text);
-                    ageFormEditTxtBox.Text = PatientForm.patientForEdit.Age.ToString();
+                    ageFormDisplayLbl.Text = PatientForm.patientForEdit.Age.ToString();
                     ageFormCheckBox.Checked = false;
                     DisabledTextboxesForEdit(ageFormEditTxtBox);
                 }
