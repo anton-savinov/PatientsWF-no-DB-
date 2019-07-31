@@ -60,7 +60,7 @@
             this.sinTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sinTextBox.Location = new System.Drawing.Point(209, 33);
             this.sinTextBox.Name = "sinTextBox";
-            this.sinTextBox.Size = new System.Drawing.Size(240, 39);
+            this.sinTextBox.Size = new System.Drawing.Size(206, 39);
             this.sinTextBox.TabIndex = 0;
             // 
             // fNameTextBox
@@ -68,7 +68,7 @@
             this.fNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fNameTextBox.Location = new System.Drawing.Point(210, 84);
             this.fNameTextBox.Name = "fNameTextBox";
-            this.fNameTextBox.Size = new System.Drawing.Size(239, 39);
+            this.fNameTextBox.Size = new System.Drawing.Size(205, 39);
             this.fNameTextBox.TabIndex = 1;
             // 
             // lNameTextBox
@@ -76,7 +76,7 @@
             this.lNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lNameTextBox.Location = new System.Drawing.Point(209, 136);
             this.lNameTextBox.Name = "lNameTextBox";
-            this.lNameTextBox.Size = new System.Drawing.Size(240, 39);
+            this.lNameTextBox.Size = new System.Drawing.Size(206, 39);
             this.lNameTextBox.TabIndex = 2;
             // 
             // ageTextBox
@@ -84,7 +84,7 @@
             this.ageTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageTextBox.Location = new System.Drawing.Point(209, 187);
             this.ageTextBox.Name = "ageTextBox";
-            this.ageTextBox.Size = new System.Drawing.Size(240, 39);
+            this.ageTextBox.Size = new System.Drawing.Size(206, 39);
             this.ageTextBox.TabIndex = 3;
             // 
             // sinLabel
@@ -144,7 +144,7 @@
             // 
             this.fillBtn.BackColor = System.Drawing.Color.LightCyan;
             this.fillBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fillBtn.Location = new System.Drawing.Point(277, 268);
+            this.fillBtn.Location = new System.Drawing.Point(243, 268);
             this.fillBtn.Name = "fillBtn";
             this.fillBtn.Size = new System.Drawing.Size(172, 86);
             this.fillBtn.TabIndex = 8;
@@ -194,12 +194,12 @@
             // 
             // DisplayAllListBox
             // 
-            this.DisplayAllListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DisplayAllListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DisplayAllListBox.FormattingEnabled = true;
-            this.DisplayAllListBox.ItemHeight = 29;
-            this.DisplayAllListBox.Location = new System.Drawing.Point(475, 31);
+            this.DisplayAllListBox.ItemHeight = 25;
+            this.DisplayAllListBox.Location = new System.Drawing.Point(441, 31);
             this.DisplayAllListBox.Name = "DisplayAllListBox";
-            this.DisplayAllListBox.Size = new System.Drawing.Size(452, 323);
+            this.DisplayAllListBox.Size = new System.Drawing.Size(486, 304);
             this.DisplayAllListBox.TabIndex = 15;
             // 
             // deletePatientBtn

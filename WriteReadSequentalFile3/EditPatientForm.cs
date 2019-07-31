@@ -107,7 +107,7 @@ namespace WriteReadSequentalFile3
                 sinFormEditTxtBox.ReadOnly = false;
             }
             else
-                DisabledTextboxesForEdit(fNameFormEditTxtBox);
+                DisabledTextboxesForEdit(sinFormEditTxtBox);
         }
 
         private void fNameFormCheckBox_CheckedChanged(object sender, EventArgs e)
